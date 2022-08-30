@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    
+</head>
+<body>
+    <button class="btn btn-dark" id="botonAlerta">Ir al Carrito!</button>
+    <div class="row" id="divProductos"></div>
+   
+    <div class="container">
+        <form id="idForm">
+            <div class="mb-3">
+                <label for="text" class="form-label">Nombre Producto</label>
+                <input type="text" class="form-control" name="nombre">
+              </div>
+              <div class="mb-3">
+                <label for="text" class="form-label">Marca Producto</label>
+                <input type="text" class="form-control" name="marca">
+              </div>
+              <div class="mb-3">
+                <label for="text" class="form-label">Precio Producto</label>
+                <input type="text" class="form-control" name="precio">
+              </div>
+              <div class="mb-3">
+                <label for="text" class="form-label">Cantidad</label>
+                <input type="text" class="form-control" name="stock">
+              </div>
+            <button type="submit" class="btn btn-dark">Crear Producto</button>
+          </form>
+    </div><br><br>
+    <div class="container">
+        <button id="botonproduc" class="btn btn-secondary">Mostrar Producto</button><br><br>
+        <div id="diProductos" class="row"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.29/dist/sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="Entrega-librerias.js"></script>
+</body>
+</html> 
